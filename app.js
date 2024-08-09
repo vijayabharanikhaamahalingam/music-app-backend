@@ -10,7 +10,7 @@ const cookieParser = require('cookie-parser');
 
 // middleware to allow cross-origin requests from any domain
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://music-app-frontend.netlify.app',
     credentials: true
 }));
 
